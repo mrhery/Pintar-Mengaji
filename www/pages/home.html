@@ -1,0 +1,19 @@
+This is home
+
+<button id="home">
+	try jquery
+</button>
+
+<button id="game">
+	go to game
+</button>
+
+<script>
+$("#home").on("click", function(){
+	alert("it worked!");
+});
+
+$("#game").on("click", function(){
+	App.setMainPage("./pages/game.html");
+});
+</script>
